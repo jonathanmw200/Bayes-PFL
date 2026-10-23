@@ -52,84 +52,84 @@ if __name__ == "__main__":
             "src": "Path to your root/MVTec",
             "des": "./dataset/mvisa/data/mvtec"
         },
-        {
-            "name": "BTAD",
-            "class": BTAD_dataset,
-            "src": "Path to your root/BTech_Dataset_transformed",
-            "des": "./dataset/mvisa/data/BTAD"
-        },
-        {
-            "name": "KSDD2",
-            "class": KSDD2_dataset,
-            "src": "Path to your root/KSDD2",
-            "des": "./dataset/mvisa/data/KSDD2"
-        },
-        {
-            "name": "RSDD",
-            "class": RSDD_dataset,
-            "src": "Path to your root/RSDD",
-            "des": "./dataset/mvisa/data/RSDD"
-        },
-        {
-            "name": "DAGM",
-            "class": DAGM_dataset,
-            "src": "Path to your root/DAGM2007",
-            "des": "./dataset/mvisa/data/DAGM"
-        },
-        {
-            "name": "DTD",
-            "class": DTD_dataset,
-            "src": "Path to your root/DTDSynthetic",  # From AdaCLIP
-            "des": "./dataset/mvisa/data/DTD"
-        },
-        {
-            "name": "HeadCT",
-            "class": HeadCT_dataset,
-            "src": "Path to your root/HeadCT_anomaly_detection",   # From AdaCLIP
-            "des": "./dataset/mvisa/data/HeadCT"
-        },
-        {
-            "name": "BrainMRI",
-            "class": BrainMRI_dataset,
-            "src": "Path to your root/BrainMRI",   # From AdaCLIP
-            "des": "./dataset/mvisa/data/BrainMRI"
-        },
-        {
-            "name": "Br35H",
-            "class": Br35H_dataset,
-            "src": "Path to your root/Br35h_anomaly_detection",   # From AdaCLIP
-            "des": "./dataset/mvisa/data/Br35H"
-        },
-        {
-            "name": "ISIC",
-            "class": ISIC_dataset,
-            "src": "Path to your root/ISIC",   # From AdaCLIP
-            "des": "./dataset/mvisa/data/ISIC"
-        },
-        {
-            "name": "ClinicDB",
-            "class": ClinicDB_dataset,
-            "src": "Path to your root/ClinicDB",   # From AdaCLIP
-            "des": "./dataset/mvisa/data/ClinicDB"
-        },
-        {
-            "name": "ColonDB",
-            "class": ColonDB_dataset,
-            "src": "Path to your root/ColonDB",   # From AdaCLIP
-            "des": "./dataset/mvisa/data/ColonDB"
-        },
-        {
-            "name": "Endo",
-            "class": Endo_dataset,
-            "src": "Path to your root/Endo",   # From AnomalyCLIP
-            "des": "./dataset/mvisa/data/Endo"
-        },
-        {
-            "name": "Kvasir",
-            "class": Kvasir_dataset,
-            "src": "Path to your root/Kvasir",   # From AnomalyCLIP
-            "des": "./dataset/mvisa/data/Kvasir"
-        },
+        # {
+        #     "name": "BTAD",
+        #     "class": BTAD_dataset,
+        #     "src": "Path to your root/BTech_Dataset_transformed",
+        #     "des": "./dataset/mvisa/data/BTAD"
+        # },
+        # {
+        #     "name": "KSDD2",
+        #     "class": KSDD2_dataset,
+        #     "src": "Path to your root/KSDD2",
+        #     "des": "./dataset/mvisa/data/KSDD2"
+        # },
+        # {
+        #     "name": "RSDD",
+        #     "class": RSDD_dataset,
+        #     "src": "Path to your root/RSDD",
+        #     "des": "./dataset/mvisa/data/RSDD"
+        # },
+        # {
+        #     "name": "DAGM",
+        #     "class": DAGM_dataset,
+        #     "src": "Path to your root/DAGM2007",
+        #     "des": "./dataset/mvisa/data/DAGM"
+        # },
+        # {
+        #     "name": "DTD",
+        #     "class": DTD_dataset,
+        #     "src": "Path to your root/DTDSynthetic",  # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/DTD"
+        # },
+        # {
+        #     "name": "HeadCT",
+        #     "class": HeadCT_dataset,
+        #     "src": "Path to your root/HeadCT_anomaly_detection",   # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/HeadCT"
+        # },
+        # {
+        #     "name": "BrainMRI",
+        #     "class": BrainMRI_dataset,
+        #     "src": "Path to your root/BrainMRI",   # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/BrainMRI"
+        # },
+        # {
+        #     "name": "Br35H",
+        #     "class": Br35H_dataset,
+        #     "src": "Path to your root/Br35h_anomaly_detection",   # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/Br35H"
+        # },
+        # {
+        #     "name": "ISIC",
+        #     "class": ISIC_dataset,
+        #     "src": "Path to your root/ISIC",   # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/ISIC"
+        # },
+        # {
+        #     "name": "ClinicDB",
+        #     "class": ClinicDB_dataset,
+        #     "src": "Path to your root/ClinicDB",   # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/ClinicDB"
+        # },
+        # {
+        #     "name": "ColonDB",
+        #     "class": ColonDB_dataset,
+        #     "src": "Path to your root/ColonDB",   # From AdaCLIP
+        #     "des": "./dataset/mvisa/data/ColonDB"
+        # },
+        # {
+        #     "name": "Endo",
+        #     "class": Endo_dataset,
+        #     "src": "Path to your root/Endo",   # From AnomalyCLIP
+        #     "des": "./dataset/mvisa/data/Endo"
+        # },
+        # {
+        #     "name": "Kvasir",
+        #     "class": Kvasir_dataset,
+        #     "src": "Path to your root/Kvasir",   # From AnomalyCLIP
+        #     "des": "./dataset/mvisa/data/Kvasir"
+        # },
     ]
 
     for config in datasets_config:
