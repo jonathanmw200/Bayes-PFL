@@ -43,14 +43,14 @@ if __name__ == "__main__":
         {
             "name": "visa",
             "class": Visa_dataset,
-            "src": "Path to your root/visa",
-            "des": "./dataset/mvisa/data/visa"
+            "src": "/visa",
+            "des": "content/Bayes-PFL/dataset/mvisa/data/visa"
         },
         {
             "name": "mvtec",
             "class": Mvtec_dataset,
-            "src": "Path to your root/MVTec",
-            "des": "./dataset/mvisa/data/mvtec"
+            "src": "/mvtec",
+            "des": "content/Bayes-PFL/dataset/mvisa/data/mvtec"
         },
         # {
         #     "name": "BTAD",
